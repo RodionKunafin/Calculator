@@ -11,6 +11,8 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
 
+    private TextView resultField;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -54,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     private void initViews() {
-        Button btn7 = findViewById(R.id.btn7);
+        /*Button btn7 = findViewById(R.id.btn7);
         Button btn8 = findViewById(R.id.btn8);
         Button btn9 = findViewById(R.id.btn9);
         Button btn4 = findViewById(R.id.btn4);
@@ -64,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
         Button btn2 = findViewById(R.id.btn2);
         Button btn3 = findViewById(R.id.btn3);
         Button btn0 = findViewById(R.id.btn0);
-        Button btnPoint = findViewById(R.id.btnPoint);
+        Button btnPoint = findViewById(R.id.btnPoint);*/
         TextView resultField  = findViewById(R.id.resultField);
 
 
