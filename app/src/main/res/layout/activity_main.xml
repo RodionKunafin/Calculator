@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/resultField"
         android:layout_width="match_parent"
         android:layout_height="139dp"
         android:textSize="30sp" />
@@ -16,26 +17,29 @@
 
         <Button
             android:id="@+id/btn7"
-            android:layout_width="120dp"
+            android:layout_width="0dp"
             android:layout_height="100dp"
             android:layout_weight="1"
             android:text="@string/btn7"
+            android:onClick="numPress"
             android:textSize="24sp" />
 
         <Button
             android:id="@+id/btn8"
-            android:layout_width="120dp"
+            android:layout_width="0dp"
             android:layout_height="100dp"
             android:layout_weight="1"
             android:text="@string/btn8"
+            android:onClick="numPress"
             android:textSize="24sp" />
 
         <Button
             android:id="@+id/btn9"
-            android:layout_width="120dp"
+            android:layout_width="0dp"
             android:layout_height="100dp"
             android:layout_weight="1"
             android:text="@string/btn9"
+            android:onClick="numPress"
             android:textSize="24sp" />
 </LinearLayout>
 
@@ -46,26 +50,29 @@
 
     <Button
         android:id="@+id/btn4"
-        android:layout_width="120dp"
+        android:layout_width="0dp"
         android:layout_height="100dp"
         android:layout_weight="1"
         android:text="@string/btn4"
+        android:onClick="numPress"
         android:textSize="24sp" />
 
     <Button
         android:id="@+id/btn5"
-        android:layout_width="120dp"
+        android:layout_width="0dp"
         android:layout_height="100dp"
         android:layout_weight="1"
         android:text="@string/btn5"
+        android:onClick="numPress"
         android:textSize="24sp" />
 
     <Button
         android:id="@+id/btn6"
-        android:layout_width="120dp"
+        android:layout_width="0dp"
         android:layout_height="100dp"
         android:layout_weight="1"
         android:text="@string/btn6"
+        android:onClick="numPress"
         android:textSize="24sp" />
 </LinearLayout>
 
@@ -76,26 +83,29 @@
 
     <Button
         android:id="@+id/btn1"
-        android:layout_width="120dp"
+        android:layout_width="0dp"
         android:layout_height="100dp"
         android:layout_weight="1"
         android:text="@string/btn1"
+        android:onClick="numPress"
         android:textSize="24sp" />
 
     <Button
         android:id="@+id/btn2"
-        android:layout_width="120dp"
+        android:layout_width="0dp"
         android:layout_height="100dp"
         android:layout_weight="1"
         android:text="@string/btn2"
+        android:onClick="numPress"
         android:textSize="24sp" />
 
     <Button
         android:id="@+id/btn3"
-        android:layout_width="120dp"
+        android:layout_width="0dp"
         android:layout_height="100dp"
         android:layout_weight="1"
         android:text="@string/btn3"
+        android:onClick="numPress"
         android:textSize="24sp" />
 </LinearLayout>
 
@@ -106,45 +116,20 @@
 
     <Button
         android:id="@+id/btn0"
-        android:layout_width="120dp"
+        android:layout_width="0dp"
         android:layout_height="100dp"
-        android:layout_weight="8"
+        android:layout_weight="2"
         android:text="@string/btn0"
+        android:onClick="numPress"
         android:textSize="24sp" />
 
     <Button
         android:id="@+id/btnPoint"
-        android:layout_width="120dp"
+        android:layout_width="0dp"
         android:layout_height="100dp"
         android:layout_weight="1"
         android:text="@string/btnPoint"
+        android:onClick="dotPress"
         android:textSize="24sp" />
 </LinearLayout>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </LinearLayout>

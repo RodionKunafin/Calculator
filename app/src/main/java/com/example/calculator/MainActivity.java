@@ -5,9 +5,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,6 +17,41 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         initViews();
     }
+
+    public void numPress(View view) {
+        int id = view.getId();
+        if (id == R.id.btn0) {
+            resultField.setText("0");
+        }
+        if (id == R.id.btn1) {
+            resultField.setText("1");
+        }
+        if (id == R.id.btn2) {
+            resultField.setText("2");
+        }
+        if (id==R.id.btn3){
+            resultField.setText("3");
+        }
+        if (id==R.id.btn4){
+            resultField.setText("4");
+        }
+        if (id==R.id.btn5){
+            resultField.setText("5");
+        }
+        if (id==R.id.btn6){
+            resultField.setText("6");
+        }
+        if (id==R.id.btn7){
+            resultField.setText("7");
+        }
+        if (id==R.id.btn8){
+            resultField.setText("8");
+        }
+        if (id==R.id.btn9){
+            resultField.setText("9");
+        }
+    }
+
 
     private void initViews() {
         Button btn7 = findViewById(R.id.btn7);
@@ -28,74 +65,8 @@ public class MainActivity extends AppCompatActivity {
         Button btn3 = findViewById(R.id.btn3);
         Button btn0 = findViewById(R.id.btn0);
         Button btnPoint = findViewById(R.id.btnPoint);
-        final TextView textView = findViewById(R.id.textView);
+        TextView resultField  = findViewById(R.id.resultField);
 
-        btn7.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                textView.setText("7");
-            }
-        });
-        btn8.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                textView.setText("8");
-            }
-        });
-        btn9.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                textView.setText("9");
-            }
-        });
-        btn4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                textView.setText("4");
-            }
-        });
-        btn5.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                textView.setText("5");
-            }
-        });
-        btn6.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                textView.setText("6");
-            }
-        });
-        btn1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                textView.setText("1");
-            }
-        });
-        btn2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                textView.setText("2");
-            }
-        });
-        btn3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                textView.setText("3");
-            }
-        });
-        btn0.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                textView.setText("0");
-            }
-        });
-        btnPoint.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                textView.setText(".");
-            }
-        });
 
     }
 
